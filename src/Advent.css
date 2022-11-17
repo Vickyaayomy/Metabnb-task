@@ -33,6 +33,24 @@
     float: right;
 }
 
+@media only screen and (max-width:768px) {
+    .container {
+     max-width: 768px;
+    }
+
+    .to-visit {
+        padding: 20px;
+    }
+
+    .vis {
+        display: none;
+    }
+
+    .places-list {
+        display: block;
+    }
+}
+
 @media only screen and (max-width:480px) {
     .container {
      max-width: 480px;
