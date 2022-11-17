@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 main {
-  padding: 40px 140px;
+  padding: 40px 150px;
 }
 
 header,
@@ -359,12 +359,12 @@ footer ul li {
   }
 
   .btn {
-    width: 100px;
+    width: 80px;
     height: 40px;
   }
 
   .srch {
-    width: 200px;
+    width: 150px;
     height: 40px;
   }
 
