@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Red Rose", cursive;
+}
+
+.container {
+  width: 1400px;
+}
+
+.logo {
+  float: left;
+}
+
+.meta_logo {
+  width: 180px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  flex: none;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: 0.3s ease-in-out;
+}
+
+.connect {
+  background: -webkit-linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  color: white;
+  margin-left: 50px;
+  padding: 12px;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Red Rose", cursive;
+  cursor: pointer;
+}
+
+main {
+  padding: 40px 140px;
+}
+
+header,
+.logo,
+nav {
+  padding: 40px 150px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.rent-meta {
+  max-width: 465px;
+  align-self: center;
+}
+
+.rent-meta p {
+  line-height: 1.5;
+  letter-spacing: 0.5;
+  margin-bottom: 40px;
+}
+
+span {
+  background: -webkit-linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.srch {
+  font-family: "Red Rose", cursive;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #cac5c1;
+  color: white;
+  border-right: none;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: none;
+  color: white;
+  font-size: 13px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  font-family: "Red Rose", cursive;
+}
+
+.header-images img {
+  width: 250px;
+}
+
+.header-images {
+  display: flex;
+  max-width: 520px;
+}
+
+.image1 {
+  margin-top: 100px;
+}
+
+.pics {
+  width: 260px;
+  padding: 10px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.resort-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.stars {
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.star {
+  margin-left: 5px;
+}
+
+.wallets img {
+  width: 150px;
+}
+
+.wallets {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  margin-top: 30px;
+}
+
+.cost {
+  font-weight: 600;
+}
+
+.places-content {
+  margin: auto;
+}
+
+.places {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.places-img {
+  margin: 10px;
+  width: 260px;
+  background-color: white;
+  box-shadow: 0px 0px 2px rgb(170, 168, 168);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 50px 0;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+
+.meta-nft {
+  max-width: 400px;
+  align-self: center;
+  color: white;
+}
+
+.meta-nft h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.meta-nft p {
+  line-height: 2;
+  font-weight: 200;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.meta-nft button {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  background-color: white;
+  font-family: "Red Rose", cursive;
+}
+
+.nft-img {
+  max-width: 500px;
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+  color: white;
+}
+
+.footer_logo {
+  margin-bottom: 50px;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.social {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.lists h2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.underlists {
+  line-height: 2;
+  font-weight: 200;
+  font-size: 13px;
+}

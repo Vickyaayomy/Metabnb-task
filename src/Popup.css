@@ -1,0 +1,65 @@
+.popup {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pop-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .2);
+    height: 100vh;
+    font-family: "Red Rose", cursive;
+}
+
+.pop-box {
+    background-color: white;
+    width: 430px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px rgb(201, 197, 197);
+    border-radius: 10px;
+}
+
+.metamask {
+    display: flex;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.walletconnect {
+    padding: 8px;
+    display: flex;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.pop-para {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+h4 {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.vector-icon {
+    align-self: center;
+    height: 20px;
+    margin-left: auto;
+}
