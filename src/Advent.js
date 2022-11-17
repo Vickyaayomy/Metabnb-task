@@ -51,14 +51,14 @@ const Home = () => {
 
         <div className="to-visit">
           <ul className="places-list">
-            <li>Resturant</li>
-            <li>Cottage</li>
-            <li>Castle</li>
-            <li>Fantast city</li>
-            <li>Beach</li>
-            <li>Carbins</li>
-            <li>Off-grid</li>
-            <li>Farms</li>
+            <li className="vis">Resturant</li>
+            <li className="vis">Cottage</li>
+            <li className="vis">Castle</li>
+            <li className="vis">Fantast city</li>
+            <li className="vis">Beach</li>
+            <li className="vis">Carbins</li>
+            <li className="vis">Off-grid</li>
+            <li className="vis">Farms</li>
             <li>
               <button className="location">Location<img className="location-logo" src={location} alt="location-logo" /></button>
             </li>

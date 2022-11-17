@@ -25,12 +25,15 @@ import Metatoken from "./components/Metatoken.jpg";
 
 const Home = () => {
   return (
+    
     <div className="body">
       <div className="container">
         <div className="navbar">
+          <div className="navbar">
           <div className="logo">
             <img className="meta_logo" src={Meta_header} alt="meta-header" />
           </div>
+          {/* <i class="fa-regular fa-bars"></i> */}
           <nav>
             <ul>
               <li>
@@ -45,6 +48,8 @@ const Home = () => {
 
             <a href="/Popup" ><button className="connect">Connect wallet</button></a>
           </nav>
+         
+        </div>
         </div>
         <header>
           <div className="header-content">
