@@ -359,12 +359,14 @@ footer ul li {
   }
 
   .btn {
-    width: 80px;
+    width: 60px;
+    font-size: 10px;
     height: 40px;
   }
 
   .srch {
-    width: 150px;
+    font-size: 10px;
+    width: 130px;
     height: 40px;
   }
 
