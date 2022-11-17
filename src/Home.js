@@ -43,7 +43,7 @@ const Home = () => {
               <li>Community</li>
             </ul>
 
-            <button className="connect">Connect wallet</button>
+            <a href="/Popup" ><button className="connect">Connect wallet</button></a>
           </nav>
         </div>
         <header>
